@@ -8,7 +8,7 @@ body{
     height: 300px;
     width: 250px;
     padding: 50px;
-    background: linear-gradient(135deg, white 50%, rgb(129, 107, 129) 50%);
+    background: linear-gradient(160deg, white 50%, rgb(129, 107, 129) 50%);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
 }
@@ -43,4 +43,5 @@ body{
 .parr{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
 }
