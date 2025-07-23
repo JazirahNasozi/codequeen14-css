@@ -1,0 +1,46 @@
+*{margin:auto !important}
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.mother{
+    height: 300px;
+    width: 250px;
+    padding: 50px;
+    background: linear-gradient(135deg, white 50%, rgb(129, 107, 129) 50%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+.logo{
+    padding-left: 100px;
+}
+.photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: white 3px solid;
+    box-shadow: 5px 5px 5px navy;
+    display: block;
+    margin:0 auto;
+    
+}
+#slogan{
+    padding-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.company{
+    color: rgb(17, 17, 53);
+    font-size: 25px;
+    font-family: monospace;
+
+}
+#par{
+    color: white;
+    padding-left: 45px;
+    
+    }
+.parr{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
