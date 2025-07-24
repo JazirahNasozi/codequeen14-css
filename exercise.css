@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: whitesmoke;
+    color: #222;
+}
+
+.tagline {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 16px;
+    color: #3e3e3e;
+}
+
+.slide {
+    text-align: center;
+    background: white;
+    padding: 30px 15px;
+    margin: 10px;
+    border-top: 4px solid #46844b;
+    border-bottom: 4px solid #46844b;
+}
+
+.slide h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #2b2b2b;
+}
+
+.slide img {
+    max-width: 70%;
+    height: 300px;
+    margin-top: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.resources {
+    padding: 30px 20px;
+    background: white;
+    margin: 10px;
+}
+
+.resources h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2a5b39
+}
+
+.resource-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.resource-columns div {
+    flex: 1;
+    min-width: 220px;
+}
+
+.resource-columns ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.journey {
+    background: white;
+    padding: 30px 20px;
+    margin: 10px;
+    border-left: 5px solid #6bb57b;
+    border-radius: 8px;
+}
+
+.journey h2 {
+    text-align: center;
+    color: #355c4f;
+    margin-bottom: 15px;
+}
+
+.journey p {
+    max-width: 800px;
+    margin: 10px auto;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
