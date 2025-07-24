@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: whitesmoke;
+    background: rgb(237, 236, 235);
     color: #222;
 }
 
@@ -10,7 +10,7 @@ body {
     font-weight: bold;
     margin: 20px 0;
     font-size: 16px;
-    color: #3e3e3e;
+    color: #602c6e;
 }
 
 .slide {
@@ -20,6 +20,7 @@ body {
     margin: 10px;
     border-top: 4px solid #46844b;
     border-bottom: 4px solid #46844b;
+    border-radius: 8px;
 }
 
 .slide h2 {
@@ -41,12 +42,13 @@ body {
     padding: 30px 20px;
     background: white;
     margin: 10px;
+    border-radius: 8px;
 }
 
 .resources h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #2a5b39
+    color: rgb(50, 95, 50)
 }
 
 .resource-columns {
@@ -68,7 +70,7 @@ body {
 }
 
 a {
-    color: #0077cc;
+    color: #1b74b4;
     text-decoration: none;
 }
 
@@ -97,4 +99,25 @@ a {
     max-width: 700px;
     margin: 0 auto;
     padding: 0 20px;
+}
+.portfolio{
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fffdf9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+.portfolio h2 {
+    text-align: center;
+    color: #3b3b8f;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+portfolio p {
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: justify;
 }
