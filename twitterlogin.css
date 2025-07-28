@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    margin: auto;
+    margin-top: 80px;
+    width: 600px;
+    height: 400px;
+}
+.blue{
+    background-color: dodgerblue;
+    width: 270px;
+    height: 400px;
+    float: left;
+    
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.white{
+    width:330px;
+    height: 400px;
+    background-color: white;
+    float: right;
+}
+.xlogo{
+    width: 20px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.fat{
+    width: 200px;
+    height: 25px;
+    margin: 10px 40px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 10px auto;
+    
+}
+.next{
+    background-color: black;
+ color: white;   
+}
+body {
+    background-color: black;
+}
+.user{
+    border: 2px solid dodgerblue;
+    padding:10px;
+    margin: 10px 40px;
+}
+.par{
+    margin: 10px 40px;
+}
+.heading{
+    margin: 5px 40px;
+    font-size: 30px;
+}
+.login{
+    margin-left: 60px;
+    margin-top: 40px;
+    padding: 5px 40px;
+    font-size: 25px;
+    color: dodgerblue;
+    border-radius: 10px;
+    box-shadow: gray;
+}
+
+
+
+
+
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 90px 0 50px;
+}
+.divider::before,
+.divider::after {content: '';
+flex: 1;
+border-bottom: 1px solid #aaa;
+}
+.divider:not(:empty)::before{
+    margin-right: 10px;
+}
+.divider:not(:empty)::after {margin-left: 10px;}
+.divider span {
+    font-weight: bold;
+    color: #444;
+}
